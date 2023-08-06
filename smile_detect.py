@@ -56,7 +56,7 @@ while True:
         break
 # This line releases the video capture object cap. It's used to free up system resources related to video capturing
 cap.release()
-# This line releases the video capture object cap. It's used to free up system resources related to video capturing
+#  To close all OpenCV windows that were opened for displaying images
 cv2.destroyAllWindows()
 
             
